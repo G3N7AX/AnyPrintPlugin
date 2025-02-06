@@ -1,8 +1,8 @@
-# AnyPrintPlugin
+# AnyPrint
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**AnyPrintPlugin** is a lightweight C++ Unreal Engine 5 plugin that provides a simple and clear way to debug your project by sending your debug prints to a Print Log. Essentially, it removes the need to scroll through the Output Log to find the information you wanted by printing directly to a custom Editor Utility Widget (Print Log). This plugin is designed to be easily integrated into any Unreal Engine project.
+**AnyPrint** is a lightweight C++ Unreal Engine 5 plugin that provides a simple and clear way to debug your project by sending your debug prints to a Print Log. Essentially, it removes the need to scroll through the Output Log to find the information you wanted by printing directly to a custom Editor Utility Widget (Print Log). This plugin is designed to be easily integrated into any Unreal Engine project.
 
 ---
 
