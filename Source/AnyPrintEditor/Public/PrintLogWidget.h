@@ -33,7 +33,7 @@ class ANYPRINTEDITOR_API UPrintLogWidget : public UEditorUtilityWidget
 	UTextBlock* LogEntryText;
 
 	UPROPERTY()
-	UEditableTextBox* FontSizeInput;
+	UEditableTextBox* TextSizeInput;
 
 	UPROPERTY()
 	FSlateFontInfo FontInfo;
@@ -66,5 +66,6 @@ protected:
 	// ====================================
 	
 	UFUNCTION(BlueprintCallable, Category="UMG")
-	void SetTextSize(FString TextSizeIn);
+	void SetTextSize(const FString& TextSizeIn);
+	
 };

@@ -64,7 +64,7 @@ float UPrintLogWidget::GetTextSize()
 }
 
 /* Setter function for the TextSize */
-void UPrintLogWidget::SetTextSize(FString TextSizeIn)
+void UPrintLogWidget::SetTextSize(const FString& TextSizeIn)
 {
 	/* Check if the input from the EditableTextBox is a number */
 	if (TextSizeIn.IsNumeric())
@@ -86,6 +86,8 @@ void UPrintLogWidget::SetTextSize(FString TextSizeIn)
 		}
 	}
 }
+
+
 
 void UPrintLogWidget::UpdateLog()
 {
