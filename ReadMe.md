@@ -76,7 +76,7 @@ UDebugFunctionLibrary::PrintAnything(TEXT("Hello, World!"), FLinearColor(1.f, 1.
 ### C++ Files
 
 - AnyPrintFunctionLibrary (.h /.cpp)
-- AnyPrintEditor (.h / .cpp)
+- AnyPrintWidget (.h / .cpp)
 
 ### Blueprints
 
