@@ -74,13 +74,17 @@ UDebugFunctionLibrary::PrintAnything(TEXT("Hello, World!"), FLinearColor(1.f, 1.
 ## Content
 
 ### C++ Files
+
 - AnyPrintFunctionLibrary (.h /.cpp)
 - AnyPrintEditor (.h / .cpp)
 
 ### Blueprints
+
 - PrintLog_L1 (Layout 1)
 
 ## Installation
+
+*This plugin will (hopefully) soon be uploaded to FAB where you won't need to manually install it but for now, follow this guide*
 
 ### Via GitHub
 
@@ -91,6 +95,18 @@ Clone this repository or download the ZIP archive from GitHub.
 ```
 git clone https://github.com/G3N7AX/AnyPrintPlugin.git
 ```
+
+
+### **Add to Your Project**
+
+1.  In your **project’s root directory**, create a folder named **"Plugins"** (if it doesn’t already exist).
+    
+2.  Inside the **Plugins** folder, create a new folder named **"AnyPrint"**.
+    
+3.  Download the AnyPrint plugin from the repository and copy its contents into the **Plugins/AnyPrint** folder.
+
+4. Clean and build your project after doing this
+
 ### **Unreal Engine Version Compatibility**
 
 **AnyPrint was developed with Unreal Engine 5.5.** If you're using it in **UE 5.0 - 5.4**, the core functionality will still work, but the **PrintLog Widget Blueprint may not exist** by default.
@@ -113,10 +129,10 @@ To resolve this:
  - This will be similar to PrintAnything but will allow for an int input which can be used for printing the logs with indices.
 
 #### CustomThunks
-- The goal with a CustomThunk is to have a wildcard Log input pin that will figure out what information.
+- The goal with a CustomThunk is to have a wildcard Log input pin that will figure out what information type is being inputted.
 - This is meant to be able to better handle the outputs it to the log.
-- An example of why I want to look into this can be seen with the rotation output.
-- The output for the rotation has 6 decimal points which can take up unnecessary room and make it harder to read.
+- An example of why I want to look into this can be seen with the rotation output. The output for the rotation has 6 decimal points which can take up unnecessary room and make it harder to read.
+- A CustomThunk would understand that a Rotation is the input and format the log better.
 
 #### Log Sets
 - Something that was in consideration was separating the logs by sets.
