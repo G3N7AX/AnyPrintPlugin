@@ -13,6 +13,7 @@
 - [Installation](#installation)
 - [Content](#content)
 - [Roadmap](#roadmap)
+- [Customization & Contribution](#customization--contribution)
 - [License](#license)
 - [Contact](#contact)
 
@@ -142,13 +143,26 @@ To resolve this:
 #### Requested Ideas
 - Highly requested options (if any at all) may be added.
 
+## **Customization & Contribution**
+
+AnyPrint is fully **commented and documented** to help users understand its functionality and expand it as needed. This project is designed to be flexible—if you want to modify or extend it to fit your needs, **you are encouraged to do so!**
+
+This plugin is released under the **MIT License**, meaning you’re free to use, modify, and distribute it. However, you **cannot reupload an unaltered version** as your own work. If you share it, **you must make a meaningful contribution** by adding your own improvements.
+
+Whether you’re just learning Unreal Engine or an experienced developer, feel free to use the comments throughout the code as a guide. **I built this to help people, so make it your own!**
+
 ## License
 
-Standard MIT License
+AnyPrint is licensed under the **MIT License**, meaning it is **completely free to use, modify, and expand upon**.
 
-Credit is very much appreciated but is not required.
+-   You can integrate it into your own projects, modify its functionality, and even sell your own modified version if you so please.
+    
+-   You **will not** face copyright strikes or legal issues for using or distributing a modified version of AnyPrint.
 
----
+-   The only restriction is that you **cannot** reupload or redistribute an **unaltered** version as your own—any shared version must include **meaningful modifications or improvements** (see [Customization & Contribution](#customization--contribution)).
+    
+
+While **credit is appreciated**, it is **not required**. Feel free to make AnyPrint your own!
 
 ## Contact
 
