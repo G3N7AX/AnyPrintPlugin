@@ -48,8 +48,8 @@
 - Call PrintAnything(const FString& Log, FLinearColor LogColor)
 ```
 // Example C++ usage
-#include "DebugFunctionLibrary.h"
-UDebugFunctionLibrary::PrintAnything(TEXT("Hello, World!"), FLinearColor(1.f, 1.f, 1.f, 1.f)));
+#include "AnyPrintFunctionLibrary.h"
+UAnyPrintFunctionLibrary::PrintAnything(TEXT("Hello, World!"), FLinearColor(1.f, 1.f, 1.f, 1.f)));
 ```
 
 ### Print Log Widget
